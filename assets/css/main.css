@@ -2872,6 +2872,14 @@ ul.actions.special {
     padding-top: 4em;
   }
 }
+img {
+  width: 100%; /* Ensures the image takes up the full width of its container */
+  height: auto; /* Maintains the aspect ratio of the image */
+  border-radius: 10px; /* Keeps the border radius */
+  margin-bottom: 15px;
+  object-fit: cover; /* Ensures the image covers the container without stretching */
+}
+
 
 @media screen and (max-width: 980px) and (min-width: 737px) {
   #footer .feature-list > .row > :nth-child(2) > section {
